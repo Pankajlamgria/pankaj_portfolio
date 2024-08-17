@@ -9,10 +9,12 @@ module.exports = {
       },
       boxShadow:{
         button_shadow:"inset 3px 3px 20px #68B2EF",
+        img_shadow:"1px 1px 120px 2px #5cadf0"
       },
       height:{
-        imgHeight:"80vh",
+        imgHeight:"75vh",
       }
+
     },
   },
   plugins: [require('tailwindcss-textshadow'),],
