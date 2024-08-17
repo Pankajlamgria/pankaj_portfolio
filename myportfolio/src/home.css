@@ -12,3 +12,45 @@
     left: -13%;
     right: auto;
 }
+.knowmoreCover{
+    transform-origin:center center;
+    /* background-color: pink; */
+    height: 4.5rem;
+    width: 4.5rem;
+    display: flex;
+    justify-content: center;
+    animation: rotate 5s linear infinite;
+    
+}
+.circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1px;
+    
+}
+
+.circle {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+
+.circle span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: 0 38px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
