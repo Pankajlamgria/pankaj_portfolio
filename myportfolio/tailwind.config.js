@@ -6,7 +6,8 @@ module.exports = {
       colors:{
         primary:"#1589e9",
         secondary:"#C7E1F6",
-        text:"#73b9f2"
+        text:"#73b9f2",
+        background:"rgb(34, 34, 34)"
       },
       boxShadow:{
         button_shadow:"inset 3px 3px 20px #68B2EF",

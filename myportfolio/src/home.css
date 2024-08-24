@@ -12,6 +12,20 @@
     left: -13%;
     right: auto;
 }
+.bubble2{
+  position: absolute;
+  z-index: 1;
+  background-color: #1589e9;
+  filter: blur(200px);
+  border-radius: 50%;
+  width: 18rem;
+  height: 18rem;
+  display: block;
+  top: -3%;
+  bottom: auto;
+  right: -10%;
+  /* right: auto; */
+}
 .knowmoreCover{
     transform-origin:center center;
     /* background-color: pink; */
