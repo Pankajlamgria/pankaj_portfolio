@@ -21,8 +21,8 @@ import mysql from "../media/MySQL.png";
 import mongodb from "../media/MongoDB.png";
 import firebase from "../media/Firebase.png";
 import tensorflow from "../media/TensorFlow.png";
-import bootstrap  from "../media/Bootstrap.png";
-
+import node from "../media/Node.png";
+import music1 from "../media/music1.png";
 
 const Home = () => {
   const text = "KNOW|MORE|";
@@ -95,21 +95,22 @@ const Home = () => {
       <div className="ml-4 absolute top-44 left-8 z-10">
         <div className="h-96 flex flex-col justify-around">
           <button className="h-11 w-11 hover:shadow-hover_shadow hover:border hover:scale-125 duration-200 rounded-full p-1">
-            <img onClick={handleMail} src={mail} />
+            <img onClick={handleMail} src={mail}  alt="mail.png"/>
           </button>
           <button className="h-11 w-11 hover:shadow-hover_shadow hover:border hover:scale-125 duration-200   rounded-full">
-            <img
+            <img alt="linkedin"
               onClick={() => {
                 window.open(
                   "https://www.linkedin.com/in/pankaj-singh-lamgria-97114b24b/",
                   "_blank"
                 );
+                
               }}
               src={linkedin}
             />
           </button>
           <button className="h-11 w-11 hover:shadow-hover_shadow hover:border hover:scale-125 duration-200 rounded-full">
-            <img
+            <img alt="github.png"
               onClick={() => {
                 window.open("https://github.com/Pankajlamgria", "_blank");
               }}
@@ -125,7 +126,7 @@ const Home = () => {
               );
             }}
           >
-            <img src={instagram} />
+            <img alt="something" src={instagram} />
           </button>
         </div>
       </div>
@@ -197,7 +198,7 @@ const Home = () => {
               <div className="absolute flex border rounded-md p-4 justify-around left-28 top-16 opacity-0 scale-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:scale-100">
                 {/* Born status */}
                 <div className="imgSec w-1/3 rounded-md overflow-hidden">
-                  <img src={kidimg} className="w-full h-full" />
+                  <img alt="something" src={kidimg} className="w-full h-full" />
                 </div>
                 <div className="w-2/3">
                   <p className="text-xl ml-2 shadow-sm drop-shadow-3xl ">
@@ -214,11 +215,16 @@ const Home = () => {
               <div className="absolute h-64 w-96 flex border rounded-md p-4 justify-around left-28 top-48 opacity-0 scale-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:scale-100">
                 {/* Born status */}
                 <div className="imgSec w-1/3 rounded-md overflow-hidden">
-                  <img src={schoolKid} className="w-full h-full scale-125 scale-x-150" />
+                  <img slt="schoolKid"
+                    src={schoolKid}
+                    className="w-full h-full scale-125 scale-x-150"
+                  />
                 </div>
-                <div className="w-2/3"> 
+                <div className="w-2/3">
                   <p className="text-lg ml-2 shadow-sm drop-shadow-3xl ">
-                    I completed my schooling at Kendriya Vidyalaya Birpur, Dehradun, in <i>2022</i>, where I was first introduced to <i>programming </i>through <b>Python</b> in the 11th grade.
+                    I completed my schooling at Kendriya Vidyalaya Birpur,
+                    Dehradun, in <i>2022</i>, where I was first introduced to{" "}
+                    <i>programming </i>through <b>Python</b> in the 11th grade.
                   </p>
                 </div>
               </div>
@@ -231,11 +237,14 @@ const Home = () => {
               <div className="absolute w-96 flex border rounded-md p-4 justify-around left-24 top-80 opacity-0 scale-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:scale-100">
                 {/* Born status */}
                 <div className="imgSec w-1/3 rounded-md overflow-hidden">
-                  <img src={coder} className="w-full h-full" />
+                  <img alt="something" src={coder} className="w-full h-full" />
                 </div>
                 <div className="w-2/3">
                   <p className="text-lg ml-2 shadow-sm drop-shadow-3xl ">
-                  I started my BTech in CSE at Graphic Era Hill University in 2022 and I'm currently in my 5th semester with a CGPA of 9.21. I've gained knowledge in software engineering and explored web development, AI, and competitive programming.
+                    I started my BTech in CSE at Graphic Era Hill University in
+                    2022 and I'm currently in my 5th semester with a CGPA of
+                    9.21. I've gained knowledge in software engineering and
+                    explored web development, AI, and competitive programming.
                   </p>
                 </div>
               </div>
@@ -251,93 +260,182 @@ const Home = () => {
 
       <div className="mx-32 mb-32 relative">
         <div className="bubble2"></div>
-        <span className="text-5xl mb-16 drop-shadow-3xl cursor-pointer hover:underline duration-200 ">Frameworks</span>
+        <span className="text-5xl mb-16 drop-shadow-3xl cursor-pointer hover:underline duration-200 ">
+          Frameworks
+        </span>
 
         <div className="h-auto flex w-full flex-wrap justify-between mt-16">
-          
           <div className="Lang flex flex-col mx-4 items-center justify-around h-44 w-44 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-24 w-24">
-              <img src={c}/>
+              <img alt="something" src={c} />
             </div>
             <span className="text-2xl bold">C</span>
           </div>
           <div className="Lang flex flex-col mx-4 items-center justify-around h-44 w-44 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-24 w-24">
-              <img src={cplusplus}/>
+              <img alt="something" src={cplusplus} />
             </div>
             <span className="text-2xl bold">C++</span>
           </div>
           <div className="Lang flex flex-col mx-4 items-center justify-around h-44 w-44 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-24 w-24">
-              <img src={python}/>
+              <img alt="something" src={python} />
             </div>
             <span className="text-2xl bold">Python</span>
           </div>
-          
+
           <div className="Lang flex flex-col mx-4 items-center justify-around h-44 w-44 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-24 w-24">
-              <img src={javascript}/>
+              <img alt="something" src={javascript} />
             </div>
             <span className="text-2xl bold">JavaScript</span>
           </div>
-          
+
           <div className="Lang flex flex-col mx-4 items-center justify-around h-44 w-44 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-24 w-24">
-              <img src={react}/>
+              <img alt="something" src={react} />
             </div>
             <span className="text-2xl bold">React</span>
           </div>
           <div className="Lang flex flex-col mx-4 items-center justify-around h-44 w-44 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-24 w-24">
-              <img src={bootstrap}/>
+              <img alt="something" src={node} />
             </div>
-            <span className="text-2xl bold">Bootstrap</span>
-          </div>  
-          
+            <span className="text-2xl bold">Node.js</span>
+          </div>
+
           <div className="Lang flex flex-col mx-4 items-center justify-around h-44 w-44 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-24 w-24">
-              <img src={css}/>
+              <img alt="something" src={css} />
             </div>
             <span className="text-2xl bold">CSS</span>
           </div>
-          
+
           <div className="Lang flex flex-col mx-4 items-center justify-around h-44 w-44 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-24 w-24">
-              <img src={tailwind}/>
+              <img alt="something" src={tailwind} />
             </div>
             <span className="text-2xl bold">Tailwind</span>
           </div>
 
           <div className="Lang flex flex-col mx-4 items-center justify-around h-44 w-44 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-24 w-24">
-              <img src={firebase}/>
+              <img alt="something" src={firebase} />
             </div>
             <span className="text-2xl bold">Firebase</span>
           </div>
-          
+
           <div className="Lang flex flex-col mx-4 items-center justify-around h-44 w-44 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-24 w-24">
-              <img src={mysql}/>
+              <img alt="something" src={mysql} />
             </div>
             <span className="text-2xl bold">MySQL</span>
           </div>
-          
+
           <div className="Lang flex flex-col mx-4 items-center justify-around h-44 w-44 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-24 w-24">
-              <img src={mongodb}/>
+              <img alt="something" src={mongodb} />
             </div>
             <span className="text-2xl bold">MongoDB</span>
           </div>
-          
+
           <div className="Lang flex flex-col mx-4 items-center justify-around h-44 w-44 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-24 w-24">
-              <img src={tensorflow}/>
+              <img alt="something" src={tensorflow} />
             </div>
             <span className="text-2xl bold">TensorFlow</span>
           </div>
-          
-          
-          
+        </div>
+      </div>
+      {/* Skills */}
+
+      <div className="mx-32 mb-32 relative">
+        <span className="text-5xl  drop-shadow-3xl cursor-pointer hover:underline duration-200">
+          Services
+        </span>
+        <div className="flex flex-wrap justify-around items-center mt-14">
+          <div className="group h-80 mt-8" >
+              <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer h-80 rounded-lg border shadow-xl-100 w-96 flex items-center pb-8 justify-center bg-gradient-to-tr from-blue-400 via-purple-500 to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
+                <h2
+                  className="absolute text-4xl text-shadowText font-bold text-center hover:animate-jumpdown"
+                >
+                  Web Development
+                </h2>
+                <h2
+                  className="relative text-4xl font-bold text-center hover:animate-jumpdown"
+                >
+                  Web Development
+                </h2>
+              </div>
+              <div className="relative border  bg-gray-700 p-5 -top-36 w-96 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
+                <p className="text-md">
+                "I build frontend and backend solutions to help people digitalize their businesses efficiently."</p>
+                <p className="float-right mt-8">💻🚀✨📈</p>
+              </div>  
+          </div>
+          <div className="group h-80 mt-8">
+              <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer h-80 rounded-lg border shadow-xl-100 w-96 flex items-center pb-8 justify-center bg-gradient-to-t from-blue-400 via-primary to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
+                <h2
+                  className="absolute text-4xl text-shadowText font-bold text-center hover:animate-jumpdown"
+                >
+                  Machine learning
+                </h2>
+                <h2
+                  className="relative text-4xl font-bold text-center hover:animate-jumpdown"
+                > 
+                  Machine learning
+                </h2>
+              </div>
+              <div className="relative border  bg-gray-700 p-5 -top-36 w-96 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
+                <p className="text-md">
+                "I work in data analysis and computer vision, leveraging technology to drive insights and build impactful solutions."</p>
+                <p className="float-right mt-4">💻🔍📊👁️</p>
+              </div>  
+          </div>
+          <div className="group h-80 mt-8">
+              <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer h-80 rounded-lg border shadow-xl-100 w-96 flex items-center pb-8 justify-center bg-gradient-to-tl from-blue-400 via-purple-500 to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
+                <h2
+                  className="absolute text-4xl text-shadowText font-bold text-center hover:animate-jumpdown"
+                >
+                  Tutoring
+                </h2>
+                <h2
+                  className="relative text-4xl font-bold text-center hover:animate-jumpdown"
+                > 
+                  Tutoring
+                </h2>
+              </div>
+              <div className="relative border  bg-gray-700 p-5 -top-36 w-96 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
+                <p className="text-md ">
+                "Offering personalized tutoring in Data Structures and Algorithms to help you master complex concepts and improve problem-solving skills."</p>
+                <p className="float-right mb-1">📚🧠💡</p>
+              </div>  
+          </div>
+        </div>
+      </div>
+
+      {/* Project Sec */}
+      <div className="mx-32 mb-24 relative"> 
+        <div className="flex justify-center"><span className="text-5xl">Projects</span></div>
+        <div className="bubble"></div>
+
+        <div className="ProjectContainer mt-20 relative z-20">
+            <div className="w-80 h-1/2 border rounded-lg relative">
+              <div className="h-64 w-80 p-2">
+                <img alt="music1" className="h-full w-full rounded-lg cursor-pointer" src={music1}/>
+              </div>
+              <div className="w-80 p-2 px-3">
+                <p className="w-full h-full text-mg">
+                  <b>MelodyMusic</b> is a full stack music application in which users can listen music in real time.And admit can upload music in it.
+                </p>
+              </div>
+              <div className="stackSec flex mb-5"> 
+                  <img alt="firebaseImg" className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-64 z-30" src={mongodb}/>
+                  <img alt="firebaseImg" className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-48 z-40" src={node}/>
+                  <img alt="firebaseImg" className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-32 z-40" src={firebase}/>
+                  <img alt="firebaseImg" className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-16 z-40" src={react}/>
+              </div>
+            </div>
         </div>
       </div>
     </div>
