@@ -23,6 +23,25 @@ import firebase from "../media/Firebase.png";
 import tensorflow from "../media/TensorFlow.png";
 import node from "../media/Node.png";
 import music1 from "../media/music1.png";
+import redirect from "../media/redirect2.png";
+import openai from "../media/OpenAPI.png";
+import vidsim from "../media/simVid.mp4";
+import vidJTD from "../media/jtd.mp4"
+
+
+import chatterverse from "../media/chaterverse.png"
+import carrental1 from "../media/carrental1.png"
+import Icode from "../media/icode1.png"
+import fracture from "../media/fracture.png"
+import chatbot from "../media/chatbot.png"
+import socket from "../media/Socket.io.png"
+import appwrite from "../media/Appwrite.png"
+import rapid from "../media/rapid.png"
+import scikit from "../media/scikit.png"
+import django from "../media/Django.png"
+import leetcode from "../media/leetcode2.png"
+
+
 
 const Home = () => {
   const text = "KNOW|MORE|";
@@ -95,22 +114,23 @@ const Home = () => {
       <div className="ml-4 absolute top-44 left-8 z-10">
         <div className="h-96 flex flex-col justify-around">
           <button className="h-11 w-11 hover:shadow-hover_shadow hover:border hover:scale-125 duration-200 rounded-full p-1">
-            <img onClick={handleMail} src={mail}  alt="mail.png"/>
+            <img onClick={handleMail} src={mail} alt="mail.png" />
           </button>
           <button className="h-11 w-11 hover:shadow-hover_shadow hover:border hover:scale-125 duration-200   rounded-full">
-            <img alt="linkedin"
+            <img
+              alt="linkedin"
               onClick={() => {
                 window.open(
                   "https://www.linkedin.com/in/pankaj-singh-lamgria-97114b24b/",
                   "_blank"
                 );
-                
               }}
               src={linkedin}
             />
           </button>
           <button className="h-11 w-11 hover:shadow-hover_shadow hover:border hover:scale-125 duration-200 rounded-full">
-            <img alt="github.png"
+            <img
+              alt="github.png"
               onClick={() => {
                 window.open("https://github.com/Pankajlamgria", "_blank");
               }}
@@ -215,7 +235,8 @@ const Home = () => {
               <div className="absolute h-64 w-96 flex border rounded-md p-4 justify-around left-28 top-48 opacity-0 scale-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:scale-100">
                 {/* Born status */}
                 <div className="imgSec w-1/3 rounded-md overflow-hidden">
-                  <img slt="schoolKid"
+                  <img
+                    slt="schoolKid"
                     src={schoolKid}
                     className="w-full h-full scale-125 scale-x-150"
                   />
@@ -354,90 +375,477 @@ const Home = () => {
           Services
         </span>
         <div className="flex flex-wrap justify-around items-center mt-14">
-          <div className="group h-80 mt-8" >
-              <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer h-80 rounded-lg border shadow-xl-100 w-96 flex items-center pb-8 justify-center bg-gradient-to-tr from-blue-400 via-purple-500 to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
-                <h2
-                  className="absolute text-4xl text-shadowText font-bold text-center hover:animate-jumpdown"
-                >
-                  Web Development
-                </h2>
-                <h2
-                  className="relative text-4xl font-bold text-center hover:animate-jumpdown"
-                >
-                  Web Development
-                </h2>
-              </div>
-              <div className="relative border  bg-gray-700 p-5 -top-36 w-96 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
-                <p className="text-md">
-                "I build frontend and backend solutions to help people digitalize their businesses efficiently."</p>
-                <p className="float-right mt-8">💻🚀✨📈</p>
-              </div>  
+          <div className="group h-80 mt-8">
+            <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer h-80 rounded-lg border shadow-xl-100 w-96 flex items-center pb-8 justify-center bg-gradient-to-tr from-blue-400 via-purple-500 to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
+              <h2 className="absolute text-4xl text-shadowText font-bold text-center hover:animate-jumpdown">
+                Web Development
+              </h2>
+              <h2 className="relative text-4xl font-bold text-center hover:animate-jumpdown">
+                Web Development
+              </h2>
+            </div>
+            <div className="relative border  bg-gray-700 p-5 -top-36 w-96 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
+              <p className="text-md">
+                "I build frontend and backend solutions to help people
+                digitalize their businesses efficiently."
+              </p>
+              <p className="float-right mt-8">💻🚀✨📈</p>
+            </div>
           </div>
           <div className="group h-80 mt-8">
-              <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer h-80 rounded-lg border shadow-xl-100 w-96 flex items-center pb-8 justify-center bg-gradient-to-t from-blue-400 via-primary to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
-                <h2
-                  className="absolute text-4xl text-shadowText font-bold text-center hover:animate-jumpdown"
-                >
-                  Machine learning
-                </h2>
-                <h2
-                  className="relative text-4xl font-bold text-center hover:animate-jumpdown"
-                > 
-                  Machine learning
-                </h2>
-              </div>
-              <div className="relative border  bg-gray-700 p-5 -top-36 w-96 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
-                <p className="text-md">
-                "I work in data analysis and computer vision, leveraging technology to drive insights and build impactful solutions."</p>
-                <p className="float-right mt-4">💻🔍📊👁️</p>
-              </div>  
+            <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer h-80 rounded-lg border shadow-xl-100 w-96 flex items-center pb-8 justify-center bg-gradient-to-t from-blue-400 via-primary to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
+              <h2 className="absolute text-4xl text-shadowText font-bold text-center hover:animate-jumpdown">
+                Machine learning
+              </h2>
+              <h2 className="relative text-4xl font-bold text-center hover:animate-jumpdown">
+                Machine learning
+              </h2>
+            </div>
+            <div className="relative border  bg-gray-700 p-5 -top-36 w-96 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
+              <p className="text-md">
+                "I work in data analysis and computer vision, leveraging
+                technology to drive insights and build impactful solutions."
+              </p>
+              <p className="float-right mt-4">💻🔍📊👁️</p>
+            </div>
           </div>
           <div className="group h-80 mt-8">
-              <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer h-80 rounded-lg border shadow-xl-100 w-96 flex items-center pb-8 justify-center bg-gradient-to-tl from-blue-400 via-purple-500 to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
-                <h2
-                  className="absolute text-4xl text-shadowText font-bold text-center hover:animate-jumpdown"
-                >
-                  Tutoring
-                </h2>
-                <h2
-                  className="relative text-4xl font-bold text-center hover:animate-jumpdown"
-                > 
-                  Tutoring
-                </h2>
-              </div>
-              <div className="relative border  bg-gray-700 p-5 -top-36 w-96 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
-                <p className="text-md ">
-                "Offering personalized tutoring in Data Structures and Algorithms to help you master complex concepts and improve problem-solving skills."</p>
-                <p className="float-right mb-1">📚🧠💡</p>
-              </div>  
+            <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer h-80 rounded-lg border shadow-xl-100 w-96 flex items-center pb-8 justify-center bg-gradient-to-tl from-blue-400 via-purple-500 to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
+              <h2 className="absolute text-4xl text-shadowText font-bold text-center hover:animate-jumpdown">
+                Tutoring
+              </h2>
+              <h2 className="relative text-4xl font-bold text-center hover:animate-jumpdown">
+                Tutoring
+              </h2>
+            </div>
+            <div className="relative border  bg-gray-700 p-5 -top-36 w-96 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
+              <p className="text-md ">
+                "Offering personalized tutoring in Data Structures and
+                Algorithms to help you master complex concepts and improve
+                problem-solving skills."
+              </p>
+              <p className="float-right mb-1">📚🧠💡</p>
+            </div>
           </div>
         </div>
       </div>
 
       {/* Project Sec */}
-      <div className="mx-32 mb-24 relative"> 
-        <div className="flex justify-center"><span className="text-5xl">Projects</span></div>
-        <div className="bubble"></div>
+      <div className="mx-32 mb-24 relative ">
 
-        <div className="ProjectContainer mt-20 relative z-20">
-            <div className="w-80 h-1/2 border rounded-lg relative">
-              <div className="h-64 w-80 p-2">
-                <img alt="music1" className="h-full w-full rounded-lg cursor-pointer" src={music1}/>
-              </div>
-              <div className="w-80 p-2 px-3">
-                <p className="w-full h-full text-mg">
-                  <b>MelodyMusic</b> is a full stack music application in which users can listen music in real time.And admit can upload music in it.
-                </p>
-              </div>
-              <div className="stackSec flex mb-5"> 
-                  <img alt="firebaseImg" className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-64 z-30" src={mongodb}/>
-                  <img alt="firebaseImg" className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-48 z-40" src={node}/>
-                  <img alt="firebaseImg" className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-32 z-40" src={firebase}/>
-                  <img alt="firebaseImg" className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-16 z-40" src={react}/>
+
+        <div className="flex justify-center">
+          <span className="text-5xl drop-shadow-3xl cursor-pointer hover:underline duration-200">Projects</span>
+        </div>
+        <div className="bubble"></div>
+        <div className="ProjectContainer mt-20 relative z-20 flex flex-wrap justify-around">
+          
+
+
+        {/* first Project*/}
+        <div className="w-80 h-1/2 border rounded-lg relative m-4">
+            <div className="h-56 w-80 p-2 group">
+              <video className="h-full w-full rounded-lg cursor-pointer group-hover:opacity-50 transition-opacity duration-100"   autoPlay muted loop>
+          <source src={vidJTD} type="video/mp4" />
+            </video>
+              <div className="absolute h-64 hidden w-80 top-0  justify-center items-center opacity-0 group-hover:flex group-hover:opacity-100 duration-200">
+                <img
+                  className=" cursor-pointer h-14 w-14 rounded-full border p-2 shadow-2xl shadow-white"
+                  alt="redirect"
+                  onClick={() => {
+                    window.open(
+                      "https://github.com/Pankajlamgria",
+                      "_blank"
+                    );
+                  }}
+                  src={redirect}
+                />
               </div>
             </div>
+            <div className="w-80 p-2 px-3">
+              <p className="w-full h-full text-mg">
+              A full-stack website for <b> Joining the Dots Foundation </b> to manage girls' online classes with attendance, grievance handling, and test features.
+              </p>
+            </div>
+            <div className="stackSec flex mb-5">
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-64 z-30"
+                src={mongodb}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-48 z-40"
+                src={node}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-32 z-40"
+                src={tailwind}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-16 z-40"
+                src={react}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-1 z-40"
+                src={openai}
+              />
+            </div>
+          </div>
+
+            {/* second PROJECT */}
+          <div className="w-80 h-1/2 border rounded-lg relative m-4">
+            <div className="h-64 w-w-80 p-2 group">
+              <img
+                alt="music1"
+                className="h-full w-full rounded-lg cursor-pointer group-hover:opacity-50 transition-opacity duration-100"
+                src={music1}
+              />
+              <div className="absolute h-64 hidden w-80 top-0  justify-center items-center opacity-0 group-hover:flex group-hover:opacity-100 duration-200">
+                <img
+                  className=" cursor-pointer h-14 w-14 rounded-full border p-2 shadow-2xl shadow-white"
+                  alt="redirect"
+                  onClick={() => {
+                    window.open(
+                      "https://melody-music.netlify.app/",
+                      "_blank"
+                    );
+                  }}
+                  src={redirect}
+                />
+              </div>
+            </div>
+            <div className="w-80 p-2 px-3">
+              <p className="w-full h-full text-mg">
+                <b>MelodyMusic</b> is a full stack music application in which
+                users can listen music in real time.And admit can upload music
+                in it.
+              </p>
+            </div>
+            <div className="stackSec flex mb-5">
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-64 z-30"
+                src={mongodb}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-48 z-40"
+                src={node}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-32 z-40"
+                src={firebase}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-16 z-40"
+                src={react}
+              />
+            </div>
+          </div>
+                  {/* third PROJECT */}
+          <div className="w-80 h-1/2 border rounded-lg relative m-4">
+            <div className="h-64 w-80 p-2 group">
+              <img
+                alt="music1"
+                className="h-full w-full rounded-lg cursor-pointer group-hover:opacity-50 transition-opacity duration-100"
+                src={chatterverse}
+              />
+              <div className="absolute h-64 hidden w-80 top-0  justify-center items-center opacity-0 group-hover:flex group-hover:opacity-100 duration-200">
+                <img
+                  className=" cursor-pointer h-14 w-14 rounded-full border p-2 shadow-2xl shadow-white"
+                  alt="redirect"
+                  onClick={() => {
+                    window.open(
+                      "https://chaterverse.netlify.app/",
+                      "_blank"
+                    );
+                  }}
+                  src={redirect}
+                />
+              </div>
+            </div>
+            <div className="w-80 p-2 px-3">
+              <p className="w-full h-full text-mg">
+                <b>Chaterverse</b> is a website that allows users to create and securely chat in their own personal chatrooms.
+              </p>
+            </div>
+            <div className="stackSec flex mb-5">
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-64 z-30"
+                src={mongodb}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-48 z-40"
+                src={node}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-32 z-40"
+                src={socket}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-16 z-40"
+                src={react}
+              />
+            </div>
+          </div>
+                {/* fourth PROJECT */}
+          <div className="w-80 h-1/2 border rounded-lg relative m-4">
+            <div className="h-64 w-80 p-2 group">
+              <img
+                alt="music1"
+                className="h-full w-full rounded-lg cursor-pointer group-hover:opacity-50 transition-opacity duration-100"
+                src={carrental1}
+              />
+              <div className="absolute h-64 hidden w-80 top-0  justify-center items-center opacity-0 group-hover:flex group-hover:opacity-100 duration-200">
+                <img
+                  className=" cursor-pointer h-14 w-14 rounded-full border p-2 shadow-2xl shadow-white"
+                  alt="redirect"
+                  onClick={() => {
+                    window.open(
+                      "https://github.com/Pankajlamgria/car-rental",
+                      "_blank"
+                    );
+                  }}
+                  src={redirect}
+                />
+              </div>
+            </div>
+            <div className="w-80 p-2 px-3">
+              <p className="w-full h-full text-mg">
+                <b>CarRental</b> 
+                 is a full-stack website where people can list their rental shops, and users can rent cars and motorcycles from them.
+              </p>
+            </div>
+            <div className="stackSec flex mb-5">
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-64 z-30"
+                src={appwrite}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-48 z-40"
+                src={node}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-32 z-40"
+                src={css}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-16 z-40"
+                src={react}
+              />
+            </div>
+          </div>
+                  {/* five PROJECT */}
+          <div className="w-80 h-1/2 border rounded-lg relative m-4">
+            <div className="h-64 w-80 p-2 group">
+              <img
+                alt="music1"
+                className="h-full w-full rounded-lg cursor-pointer group-hover:opacity-50 transition-opacity duration-100"
+                src={Icode}
+              />
+              <div className="absolute h-64 hidden w-80 top-0  justify-center items-center opacity-0 group-hover:flex group-hover:opacity-100 duration-200">
+                <img
+                  className=" cursor-pointer h-14 w-14 rounded-full border p-2 shadow-2xl shadow-white"
+                  alt="redirect"
+                  onClick={() => {
+                    window.open(
+                      "https://github.com/Pankajlamgria/Icode",
+                      "_blank"
+                    );
+                  }}
+                  src={redirect}
+                />
+              </div>
+            </div>
+            <div className="w-80 p-2 px-3">
+              <p className="w-full h-full text-mg">
+                <b>Icode</b> is an online code editor that allows users to write code in different languages like Python, C++, and C using a REST API.
+              </p>
+            </div>
+            <div className="stackSec flex mb-5">
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-64 z-30"
+                src={css}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-48 z-40"
+                src={node}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-32 z-40"
+                src={rapid}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-16 z-40"
+                src={react}
+              />
+            </div>
+          </div>
+
+                {/* six PROJECT */}
+          <div className="w-80 h-1/2 border rounded-lg relative m-4">
+            <div className="h-64 w-80 p-2 group">
+            <img
+                alt="music1"
+                className="h-full w-full rounded-lg cursor-pointer group-hover:opacity-50 transition-opacity duration-100"
+                src={chatbot}
+              />
+              <div className="absolute h-64 hidden w-80 top-0  justify-center items-center opacity-0 group-hover:flex group-hover:opacity-100 duration-200">
+                <img
+                  className=" cursor-pointer h-14 w-14 rounded-full border p-2 shadow-2xl shadow-white"
+                  alt="redirect"
+                  onClick={() => {
+                    window.open(
+                      "https://github.com/Pankajlamgria/gehu-chatbot",
+                      "_blank"
+                    );
+                  }}
+                  src={redirect}
+                />
+              </div>
+            </div>
+            <div className="w-80 p-2 px-3">
+              <p className="w-full h-full text-mg">
+                <b>EraGuid</b> is a chatbot, written in Python, that answers all queries related to Graphic Era Hill University.
+              </p>
+            </div>
+            <div className="stackSec flex mb-5">
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-64 z-30"
+                src={scikit}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-48 z-40"
+                src={python}
+              />
+            </div>
+          </div>
+
+                  {/* seventh PROJECT */}
+          <div className="w-80 h-1/2 border rounded-lg relative m-4">
+            <div className="h-56 w-80 p-2 group">
+              <video className="h-full w-full rounded-lg cursor-pointer group-hover:opacity-50 transition-opacity duration-100"   autoPlay muted loop>
+          <source src={vidsim} type="video/mp4" />
+            </video>
+              <div className="absolute h-64 hidden w-80 top-0  justify-center items-center opacity-0 group-hover:flex group-hover:opacity-100 duration-200">
+                <img
+                  className=" cursor-pointer h-14 w-14 rounded-full border p-2 shadow-2xl shadow-white"
+                  alt="redirect"
+                  onClick={() => {
+                    window.open(
+                      "https://github.com/Pankajlamgria/8085-simulator",
+                      "_blank"
+                    );
+                  }}
+                  src={redirect}
+                />
+              </div>
+            </div>
+            <div className="w-80 p-2 px-3">
+              <p className="w-full h-full text-mg">
+                The <b>8085 Simulator</b> is a Python-based application with a GUI that allows users to write and execute assembly-level programs.
+              </p>
+            </div>
+            <div className="stackSec flex mb-5">
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-64 z-30"
+                src={python}
+              />
+              
+            </div>
+          </div>
+
+
+          {/* Eight Project */}
+
+          <div className="w-80 h-1/2 border rounded-lg relative m-4">
+            <div className="h-64 w-80 p-2 group">
+              <img
+                alt="music1"
+                className="h-full w-full rounded-lg cursor-pointer group-hover:opacity-50 transition-opacity duration-100"
+                src={fracture}
+              />
+              <div className="absolute h-64 hidden w-80 top-0  justify-center items-center opacity-0 group-hover:flex group-hover:opacity-100 duration-200">
+                <img
+                  className=" cursor-pointer h-14 w-14 rounded-full border p-2 shadow-2xl shadow-white"
+                  alt="redirect"
+                  onClick={() => {
+                    window.open(
+                      "https://github.com/Pankajlamgria/Fracture-image-Classifier",
+                      "_blank"
+                    );
+                  }}
+                  src={redirect}
+                />
+              </div>
+            </div>
+            <div className="w-80 p-2 px-3">
+              <p className="w-full h-full text-mg">
+                A web-based <b>deep learning </b> model for fracture classification using Flask as the backend.
+              </p>
+            </div>
+            <div className="stackSec flex mb-5">
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-64 z-30"
+                src={react}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-48 z-40"
+                src={django}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-32 z-40"
+                src={tensorflow}
+              />
+              <img
+                alt="firebaseImg"
+                className="cursor-pointer hover:scale-110 duration-200  shadow-green-300 shadow-sm w-9 h-9 border rounded-full p-1 bg-gray-600 relative left-16 z-40"
+                src={python}
+              />
+            </div>
+          </div>
         </div>
       </div>
+
+
+        {/* Coding Profile */}
+        <div className="codingsec mx-32">
+          <div className="flex justify-center"><span className="drop-shadow-3xl cursor-pointer hover:underline duration-200 text-5xl" >Coding Profile</span></div>
+
+          <div className="m-16 mt-24">
+                <div className="w-1/3 h-72 border rounded-lg flex justify-around relative z-10">
+                    <div className="imgSec w-full h-full p-2 overflow-hidden">
+                      <img alt="leetcode" className="h-full w-full rounded-lg" src={leetcode}/>
+                    </div>
+                </div>
+
+          </div>
+
+        </div>
     </div>
   );
 };

@@ -9,7 +9,9 @@ module.exports = {
           "20%": { opacity: ".4" },
           "100%": { opacity: "0", transform: "scale(1.8)"},
         },
+        
       },
+
       colors: {
         primary: "#1589e9",
         secondary: "#C7E1F6",
