@@ -3,11 +3,11 @@ import { ReactTyped } from 'react-typed';
 
 const Typewriter = () => {
   return (
-      <span className='text-text drop-shadow-3xl'>
+      <span className='lg:text-text lg:text-3xl md:text-xl md:font-bold drop-shadow-3xl lg:tracking-wide md:tracking-tighter'>
       <ReactTyped
         strings={['Web Developer', 'ML Developer', 'Competitive Programmer']}
-        typeSpeed={100}
-        backSpeed={100}
+        typeSpeed={80}
+        backSpeed={80}
         delaySpeed={1000}
         loop
       />

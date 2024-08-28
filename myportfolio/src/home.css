@@ -23,8 +23,7 @@
   display: block;
   top: -3%;
   bottom: auto;
-  right: -10%;
-  /* right: auto; */
+  right: 0%;
 }
 .knowmoreCover{
     transform-origin:center center;

@@ -9,7 +9,15 @@ module.exports = {
           "20%": { opacity: ".4" },
           "100%": { opacity: "0", transform: "scale(1.8)"},
         },
-        
+        movetop:{
+          "0%":{top:'-12px'},
+          "50%":{top:"-130px"},
+          "100%":{top:"-12px"},
+        },
+        slideIn: {
+          '0%': { transform: 'translateY(20px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
       },
 
       colors: {
@@ -32,6 +40,8 @@ module.exports = {
       },
       animation: {
         jumpdown: "jumpdown 0.6s ease forwards",
+        movetop:"movetop 8s linear backwards infinite",
+        slide_in: 'slideIn 1s ease-out forwards',
       },
     },
   },
