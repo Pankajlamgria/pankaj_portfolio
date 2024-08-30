@@ -6,7 +6,6 @@
     border-radius: 50%;
     width: 20rem;
     height: 20rem;
-    display: block;
     top: -8%;
     bottom: auto;
     left: -13%;
@@ -20,7 +19,6 @@
   border-radius: 50%;
   width: 18rem;
   height: 18rem;
-  display: block;
   top: -3%;
   bottom: auto;
   right: 0%;
@@ -30,7 +28,7 @@
     /* background-color: pink; */
     height: 4.5rem;
     width: 4.5rem;
-    display: flex;
+    
     justify-content: center;
     animation: rotate 5s linear infinite;
     

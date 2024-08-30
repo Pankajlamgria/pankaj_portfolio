@@ -69,15 +69,15 @@ const Home = () => {
   return (
     <div>
       <div className="relative flex justify-between items-center px-5 h-16 ">
-        <div className="lg:text-3xl md:text-2xl mx-10 ">
-          <div className="bubble"></div>
+        <div className="lg:text-3xl md:text-2xl md:mx-10 sm:mx-4 ">
+          <div className="bubble md:block sm:hidden"></div>
           <div className="relative z-10 cursor-text font-semibold tracking-wide hover:text-secondary duration-100">
             PANKAJ SINGH
           </div>
         </div>
         <div className="text-base">
           <ul className="flex justify-around w-auto items-center lg:px-9 md:px-4 lg:mx-10 md:mx-2">
-            <li className="text-gray-200">Developer</li>
+            <li className="text-gray-200 sm:hidden md:block">Developer</li>
             <div className="mx-10 w-48 border rounded-full h-10 align-middle justify-between flex items-center cursor-pointer px-4  shadow-button_shadow overflow-hidden" onClick={()=>{
               window.open("https://www.linkedin.com/in/pankaj-singh-lamgria-97114b24b/");
             }}>
@@ -89,9 +89,9 @@ const Home = () => {
           </ul>
         </div>
       </div>
-      <div className="lg:px-36 md:px-20 mt-20  ml-8 mr-2 rounded-1xl flex justify-between lg:h-imgHeight md:h-96">
+      <div className="lg:px-36 md:px-20 mt-20  ml-8 mr-2 rounded-1xl flex md:flex-row sm:flex-col-reverse justify-between lg:h-imgHeight md:h-96">
         {/* text Sec */}
-        <div className="mt-10 h-full rounded pt-14 w-3/5 flex-col items-center ">
+        <div className="mt-10 h-full rounded pt-14 md:w-3/5 sm:w-full flex-col items-center ">
           <h1 className="lg:text-4xl md:text-3xl font-medium mb-1">Hi!</h1>
           <h1 className="lg:text-5xl md:text-3xl font-medium mb-8">
             I'm{" "}
@@ -105,7 +105,7 @@ const Home = () => {
 
           <div>
             <button
-              className="lg:h-11 lg:w-40 md:w-32 md:h-9 mt-8 text-white bg-button flex  items-center justify-center lg:text-xl md:text-lg font-bold border rounded-lg shadow-button_shadow hover:shadow-hover_shadow duration-700"
+              className="lg:h-11 lg:w-40 md:w-32 md:h-9 sm:w-32 sm:h-9 mt-8 text-white bg-button flex  items-center justify-center lg:text-xl md:text-lg font-bold border rounded-lg shadow-button_shadow hover:shadow-hover_shadow duration-700"
               onClick={handleResumeDownload}
             >
               Resume
@@ -114,7 +114,7 @@ const Home = () => {
         </div>
 
         {/* Image Sec */}
-        <div className="lg:w-2/5 md:w-2/3 mt-5 flex justify-center items-center">
+        <div className="lg:w-2/5 md:w-2/3 sm:w-full sm:h-full mt-5 flex justify-center items-center">
           <img
             className="w-full max-h-full rounded-full shadow-img_shadow scale-90"
             src={profile}
@@ -122,12 +122,12 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="ml-4 absolute top-44 left-8 z-10">
-        <div className="h-96 flex flex-col justify-around">
-          <button className="lg:h-11 lg:w-11 md:h-9 md:w-9 md:border md:shadow-hover_shadow lg:border-none lg:shadow-none hover:shadow-hover_shadow hover:border hover:scale-125 duration-200 rounded-full p-1">
+      <div className="ml-4 absolute md:top-44 sm:top-24  md:w-auto sm:w-[80%] left-8 z-10">
+        <div className="md:h-96 sm:h-28 flex md:flex-col sm:flex sm:justify-around">
+          <button className="sm:h-11 sm:w-11 lg:h-11 lg:w-11 md:h-9 md:w-9 md:border md:shadow-hover_shadow lg:border-none lg:shadow-none hover:shadow-hover_shadow hover:border hover:scale-125 duration-200 rounded-full p-1">
             <img onClick={handleMail} src={mail} alt="mail.png" />
           </button>
-          <button className="lg:h-11 lg:w-11 md:h-9 md:w-9 md:border md:shadow-hover_shadow lg:border-none lg:shadow-none hover:shadow-hover_shadow hover:border hover:scale-125 duration-200   rounded-full">
+          <button className="sm:h-11 sm:w-11 lg:h-11 lg:w-11 md:h-9 md:w-9 md:border md:shadow-hover_shadow lg:border-none lg:shadow-none hover:shadow-hover_shadow hover:border hover:scale-125 duration-200   rounded-full">
             <img
               alt="linkedin"
               onClick={() => {
@@ -139,7 +139,7 @@ const Home = () => {
               src={linkedin}
             />
           </button>
-          <button className="lg:h-11 lg:w-11 md:h-9 md:w-9 md:border md:shadow-hover_shadow lg:border-none lg:shadow-none hover:shadow-hover_shadow hover:border hover:scale-125 duration-200 rounded-full">
+          <button className="sm:h-11 sm:w-11 lg:h-11 lg:w-11 md:h-9 md:w-9 md:border md:shadow-hover_shadow lg:border-none lg:shadow-none hover:shadow-hover_shadow hover:border hover:scale-125 duration-200 rounded-full">
             <img
               alt="github.png"
               onClick={() => {
@@ -149,7 +149,7 @@ const Home = () => {
             />
           </button>
           <button
-            className="lg:h-11 lg:w-11 md:h-9 md:w-9 md:border md:shadow-hover_shadow lg:border-none lg:shadow-none hover:shadow-hover_shadow hover:border hover:scale-125 duration-200 rounded-full"
+            className="sm:h-11 sm:w-11 lg:h-11 lg:w-11 md:h-9 md:w-9 md:border md:shadow-hover_shadow lg:border-none lg:shadow-none hover:shadow-hover_shadow hover:border hover:scale-125 duration-200 rounded-full"
             onClick={() => {
               window.open(
                 "https://www.instagram.com/pankaj_lamgria_01/",
@@ -162,7 +162,7 @@ const Home = () => {
         </div>
       </div>
       <div
-        className="relative  lg:left-[92vw] bottom-8 md:left-[87vw]  knowmoreCover cursor-pointer"
+        className="relative  lg:left-[92vw] bottom-8 md:left-[87vw] sm:hidden md:flex knowmoreCover cursor-pointer"
         onClick={handleMoreToAbout}
       >
         <div className="circle-container" >
@@ -182,12 +182,12 @@ const Home = () => {
       </div>
 
       {/* About Section */} 
-      <div className="h-auto mt-36 lg:mx-32 md:mx-10 flex mb-32" id="AboutSec">
-        <div className="TextArea w-2/3 lg:p-5 lg:pr-10 md:p-3 mb-40">
-          <span className="lg:text-5xl md:text-4xl drop-shadow-3xl cursor-pointer hover:underline duration-200">
+      <div className="h-auto mt-36 lg:mx-32 md:mx-10 sm:mx-0 flex  md:mb-32 sm:mb-0" id="AboutSec">
+        <div className="TextArea md:w-2/3 sm:w-[100%] lg:p-5 lg:pr-10 sm:p-3  mb-40">
+          <span className="lg:text-5xl sm:text-4xl drop-shadow-3xl cursor-pointer hover:underline duration-200">
             My Journey
           </span>
-          <h2 className="lg:text-lg md:text-md mt-24 text-left text-gray-300">
+          <h2 className="lg:text-lg md:text-md md:mt-24 sm:mt-12 text-left text-gray-300">
             I am a 20-year-old student pursuing a Bachelor of Technology in
             Computer Science and Engineering at Graphic Era Hill University,
             Dehradun. With a strong passion for{" "}
@@ -222,7 +222,7 @@ const Home = () => {
             software developer and contributing to real-world projects.
           </h2>
         </div>
-        <div className="animation w-1/3 mt-12 mb-24  h-auto relative z-1">
+        <div className="animation md:block sm:hidden w-1/3 mt-12 mb-24  h-auto relative z-1">
           <div className="VerticalLine">
             <div className="w-2 h-full bg-white absolute lg:left-8 md:left-2"></div>
             <div className="group">
@@ -293,88 +293,88 @@ const Home = () => {
 
       {/* Skills */}
 
-      <div className="lg:mx-32 md:mx-10 mb-32 relative">
-        <div className="bubble2"></div>
-        <span className="lg:text-5xl md:text-4xl  mb-16 drop-shadow-3xl cursor-pointer hover:underline duration-200 ">
+      <div className="lg:mx-32 md:mx-10 sm:mx-0 mb-32 relative">
+        <div className="bubble2 md:block sm:hidden"></div>
+        <span className="lg:text-5xl sm:text-4xl  mb-16 drop-shadow-3xl cursor-pointer hover:underline duration-200 sm:px-5">
           Frameworks
         </span>
 
-        <div className="h-auto flex w-full flex-wrap justify-between mt-16">
-          <div className="Lang flex flex-col mx-4 items-center justify-around h-40 w-40 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
+        <div className="h-auto flex w-full flex-wrap md:justify-between sm:justify-center sm:items-center mt-16">
+          <div className="Lang flex flex-col mx-4 items-center justify-around md:h-40 md:w-40 sm:h-32 sm:w-32 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-16 w-16">
               <img alt="something" src={c} />
             </div>
             <span className="text-xl bold">C</span>
           </div>
-          <div className="Lang flex flex-col mx-4 items-center justify-around h-40 w-40 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
+          <div className="Lang flex flex-col mx-4 items-center justify-around md:h-40 md:w-40 sm:h-32 sm:w-32 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-16 w-16">
               <img alt="something" src={cplusplus} />
             </div>
             <span className="text-xl bold">C++</span>
           </div>
-          <div className="Lang flex flex-col mx-4 items-center justify-around h-40 w-40 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
+          <div className="Lang flex flex-col mx-4 items-center justify-around md:h-40 md:w-40 sm:h-32 sm:w-32 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-16 w-16">
               <img alt="something" src={python} />
             </div>
             <span className="text-xl bold">Python</span>
           </div>
 
-          <div className="Lang flex flex-col mx-4 items-center justify-around relative z-40 h-40 w-40 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400 ">
+          <div className="Lang flex flex-col mx-4 items-center justify-around relative z-40 md:h-40 md:w-40 sm:h-32 sm:w-32 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400 ">
             <div className="imgCover h-16 w-16">
               <img alt="something" src={javascript} />
             </div>
             <span className="text-xl bold">JavaScript</span>
           </div>
 
-          <div className="Lang flex flex-col mx-4 items-center justify-around h-40 w-40 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
+          <div className="Lang flex flex-col mx-4 items-center justify-around md:h-40 md:w-40 sm:h-32 sm:w-32 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-16 w-16">
               <img alt="something" src={react} />
             </div>
             <span className="text-xl bold">React</span>
           </div>
-          <div className="Lang flex flex-col mx-4 items-center justify-around h-40 w-40 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
+          <div className="Lang flex flex-col mx-4 items-center justify-around md:h-40 md:w-40 sm:h-32 sm:w-32 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-16 w-16">
               <img alt="something" src={node} />
             </div>
             <span className="text-xl bold">Node.js</span>
           </div>
 
-          <div className="Lang flex flex-col mx-4 items-center justify-around h-40 w-40 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
+          <div className="Lang flex flex-col mx-4 items-center justify-around md:h-40 md:w-40 sm:h-32 sm:w-32 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-16 w-16">
               <img alt="something" src={css} />
             </div>
             <span className="text-xl bold">CSS</span>
           </div>
 
-          <div className="Lang flex flex-col mx-4 items-center justify-around h-40 w-40 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
+          <div className="Lang flex flex-col mx-4 items-center justify-around md:h-40 md:w-40 sm:h-32 sm:w-32 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-16 w-16">
               <img alt="something" src={tailwind} />
             </div>
             <span className="text-xl bold">Tailwind</span>
           </div>
 
-          <div className="Lang flex flex-col mx-4 items-center justify-around h-40 w-40 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
+          <div className="Lang flex flex-col mx-4 items-center justify-around md:h-40 md:w-40 sm:h-32 sm:w-32 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-16 w-16">
               <img alt="something" src={firebase} />
             </div>
             <span className="text-xl bold">Firebase</span>
           </div>
 
-          <div className="Lang flex flex-col mx-4 items-center justify-around h-40 w-40 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
+          <div className="Lang flex flex-col mx-4 items-center justify-around md:h-40 md:w-40 sm:h-32 sm:w-32 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-16 w-16">
               <img alt="something" src={mysql} />
             </div>
             <span className="text-xl bold">MySQL</span>
           </div>
 
-          <div className="Lang flex flex-col mx-4 items-center justify-around h-40 w-40 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
+          <div className="Lang flex flex-col mx-4 items-center justify-around md:h-40 md:w-40 sm:h-32 sm:w-32 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-16 w-16">
               <img alt="something" src={mongodb} />
             </div>
             <span className="text-xl bold">MongoDB</span>
           </div>
 
-          <div className="Lang flex flex-col mx-4 items-center justify-around h-40 w-40 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
+          <div className="Lang flex flex-col mx-4 items-center justify-around md:h-40 md:w-40 sm:h-32 sm:w-32 bg-gray-600 rounded-lg  border-2 cursor-pointer mb-10   hover:border-blue-400">
             <div className="imgCover h-16 w-16">
               <img alt="something" src={tensorflow} />
             </div>
@@ -453,7 +453,7 @@ const Home = () => {
             Projects
           </span>
         </div>
-        <div className="bubble"></div>
+        <div className="bubble md:block sm:hidden"></div>
         <div className="ProjectContainer mt-20 relative z-20 flex flex-wrap justify-around">
           {/* first Project*/}
           <div className="lg:w-80 md:w-96 h-1/2 border rounded-lg relative lg:m-4 md:my-4">
@@ -940,9 +940,9 @@ const Home = () => {
 
 
               {/* Contact Sec */}
-      <div className="contact m-32 lg:mx-32 md:mx-10  mb-14">
+      <div className="contact m-32 lg:mx-32 md:mx-10  mb-14 md:block sm:hidden">
         <div className=" relative  flex justify-center items-center flex-col">
-          <div className="bubble"></div>
+          <div className="bubble md:block sm:hidden"></div>
           <span className="drop-shadow-3xl cursor-pointer text-center hover:underline duration-200 lg:text-5xl md:text-4xl">
             Contact Me
           </span>

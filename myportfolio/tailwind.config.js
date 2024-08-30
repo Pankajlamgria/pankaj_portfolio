@@ -43,6 +43,9 @@ module.exports = {
         movetop:"movetop 8s linear backwards infinite",
         slide_in: 'slideIn 1s ease-out forwards',
       },
+      screens:{
+        sm:375,
+      }
     },
   },
   plugins: [require("tailwindcss-textshadow")],
