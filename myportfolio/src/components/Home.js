@@ -54,7 +54,7 @@ const Home = () => {
   const characters = text.split("");
   const handleResumeDownload = () => {
     window.open(
-      "https://drive.google.com/file/d/1wgGH1M_tYxn7pSGIsRvDZUO-uPtEAwv7/view?usp=drive_link",
+      "https://drive.google.com/file/d/1vBAhTmRhXS2i21o9vFptaS_lTAZ7gLlT/view?usp=sharing",
       "_blank"
     );
   };
