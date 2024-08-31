@@ -250,7 +250,7 @@ const Home = () => {
                 {/* Born status */}
                 <div className="imgSec w-1/3  md:flex md:justify-center md:items-center rounded-md overflow-hidden">
                   <img
-                    slt="schoolKid"
+                    alt="school kid"
                     src={schoolKid}
                     className="w-full lg:h-full md:h-40 md:rounded-md scale-125 scale-x-150"
                   />
@@ -293,7 +293,7 @@ const Home = () => {
 
       {/* Skills */}
 
-      <div className="lg:mx-32 md:mx-10 sm:mx-0 mb-32 relative">
+      <div className="lg:mx-32 md:mx-10 sm:mx-0 md:mb-32 sm:mb-4 relative">
         <div className="bubble2 md:block sm:hidden"></div>
         <span className="lg:text-5xl sm:text-4xl  mb-16 drop-shadow-3xl cursor-pointer hover:underline duration-200 sm:px-5">
           Frameworks
@@ -386,22 +386,22 @@ const Home = () => {
             
       {/* Services */}
 
-      <div className="lg:mx-32 md:mx-10 mb-32 relative">
-        <span className="lg:text-5xl md:text-4xl  drop-shadow-3xl cursor-pointer hover:underline duration-200">
+      <div className="lg:mx-32 md:mx-10 md:mb-32 sm:mb-8 relative">
+        <span className="lg:text-5xl sm:text-4xl sm:px-4 md:px-0  drop-shadow-3xl cursor-pointer hover:underline duration-200">
           Services
         </span>
         <div className="flex flex-wrap justify-around items-center mt-14">
-          <div className="group h-80 mt-8">
-            <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer rounded-lg border shadow-xl-100 lg:h-80 md:h-72 lg:w-96 md:w-72 flex items-center pb-8 justify-center bg-gradient-to-tr from-blue-400 via-purple-500 to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
-              <h2 className="absolute lg:text-4xl md:text-3xl text-shadowText font-bold text-center hover:animate-jumpdown">
+          <div className="group h-80 md:mt-8 sm:mt-4">
+            <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer rounded-lg border shadow-xl-100 lg:h-80 sm:h-72 lg:w-96 sm:w-72 flex items-center pb-8 justify-center bg-gradient-to-tr from-blue-400 via-purple-500 to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
+              <h2 className="absolute lg:text-4xl sm:text-3xl text-shadowText font-bold text-center hover:animate-jumpdown">
                 Web Development
               </h2>
-              <h2 className="relative lg:text-4xl md:text-3xl font-bold text-center hover:animate-jumpdown">
+              <h2 className="relative lg:text-4xl sm:text-3xl font-bold text-center hover:animate-jumpdown">
                 Web Development
               </h2>
             </div>
-            <div className="relative border  bg-gray-700 p-5 -top-36 lg:w-96 md:w-72 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
-              <p className="lg:text-md  md:text-sm">
+            <div className="relative border  bg-gray-700 p-5 -top-36 lg:w-96 sm:w-72 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
+              <p className="lg:text-md  sm:text-sm">
                 "I build frontend and backend solutions to help people
                 digitalize their businesses efficiently."
               </p>
@@ -409,16 +409,16 @@ const Home = () => {
             </div>
           </div>
           <div className="group h-80 mt-8">
-            <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer rounded-lg border shadow-xl-100 lg:h-80 md:h-72 lg:w-96 md:w-72 flex items-center pb-8 justify-center bg-gradient-to-t from-blue-400 via-primary to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
-              <h2 className="absolute lg:text-4xl md:text-3xl text-shadowText font-bold text-center hover:animate-jumpdown">
+            <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer rounded-lg border shadow-xl-100 lg:h-80 sm:h-72 lg:w-96 sm:w-72 flex items-center pb-8 justify-center bg-gradient-to-t from-blue-400 via-primary to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
+              <h2 className="absolute lg:text-4xl sm:text-3xl text-shadowText font-bold text-center hover:animate-jumpdown">
                 Machine learning
               </h2>
-              <h2 className="relative lg:text-4xl md:text-3xl font-bold text-center hover:animate-jumpdown">
+              <h2 className="relative lg:text-4xl sm:text-3xl font-bold text-center hover:animate-jumpdown">
                 Machine learning
               </h2>
             </div>
-            <div className="relative border  bg-gray-700 p-5 -top-36 lg:w-96 md:w-72 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
-              <p className="lg:text-md  md:text-sm">
+            <div className="relative border  bg-gray-700 p-5 -top-36 lg:w-96 sm:w-72 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
+              <p className="lg:text-md  sm:text-sm">
                 "I work in data analysis and computer vision, leveraging
                 technology to drive insights and build impactful solutions."
               </p>
@@ -426,16 +426,16 @@ const Home = () => {
             </div>
           </div>
           <div className="group h-80 mt-8">
-            <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer rounded-lg border shadow-xl-100 lg:h-80 md:h-72 lg:w-96 md:w-72 flex items-center pb-8 justify-center bg-gradient-to-tl from-blue-400 via-purple-500 to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
-              <h2 className="absolute lg:text-4xl md:text-3xl text-shadowText font-bold text-center hover:animate-jumpdown">
+            <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer rounded-lg border shadow-xl-100 lg:h-80 sm:h-72 lg:w-96 sm:w-72 flex items-center pb-8 justify-center bg-gradient-to-tl from-blue-400 via-purple-500 to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
+              <h2 className="absolute lg:text-4xl sm:text-3xl text-shadowText font-bold text-center hover:animate-jumpdown">
                 Tutoring
               </h2>
-              <h2 className="relative lg:text-4xl md:text-3xl font-bold text-center hover:animate-jumpdown">
+              <h2 className="relative lg:text-4xl sm:text-3xl font-bold text-center hover:animate-jumpdown">
                 Tutoring
               </h2>
             </div>
-            <div className="relative border  bg-gray-700 p-5 -top-36 lg:w-96 md:w-72 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
-              <p className="lg:text-md md:text-sm">
+            <div className="relative border  bg-gray-700 p-5 -top-36 lg:w-96 sm:w-72 z-2 rounded-lg opacity-0 h-36 group-hover:opacity-100 transition-opacity duration-500">
+              <p className="lg:text-md sm:text-sm">
                 "Offering personalized tutoring in Data Structures and
                 Algorithms to help you master complex concepts and improve
                 problem-solving skills."
@@ -447,16 +447,16 @@ const Home = () => {
       </div>
 
       {/* Project Sec */}
-      <div className="lg:mx-32 md:mx-10 mb-24 relative ">
+      <div className="lg:mx-32 md:mx-10 md:mb-24 sm:mb-12 relative ">
         <div className="flex justify-center">
-          <span className="lg:text-5xl md:text-4xl drop-shadow-3xl cursor-pointer hover:underline duration-200">
+          <span className="lg:text-5xl sm:text-4xl drop-shadow-3xl cursor-pointer hover:underline duration-200">
             Projects
           </span>
         </div>
         <div className="bubble md:block sm:hidden"></div>
-        <div className="ProjectContainer mt-20 relative z-20 flex flex-wrap justify-around">
+        <div className="ProjectContainer md:mt-20 sm:mt-8 relative z-20 flex flex-wrap justify-around">
           {/* first Project*/}
-          <div className="lg:w-80 md:w-96 h-1/2 border rounded-lg relative lg:m-4 md:my-4">
+          <div className="lg:w-80 md:w-96 h-1/2 border rounded-lg relative lg:m-4  sm:m-4 md:my-4 ">
             <div className="h-56 lg:w-80 md:w-96 p-2 group">
               <video
                 className="h-full w-full rounded-lg cursor-pointer group-hover:opacity-50 transition-opacity duration-100"
@@ -854,16 +854,16 @@ const Home = () => {
       </div>
 
       {/* Coding Profile */}
-      <div className="codingsec lg:mx-32 md:mx-10">
+      <div className="codingsec lg:mx-32 md:mx-10 sm:mx-0 sm:mb-8">
         <div className="flex flex-wrap justify-center">
-          <span className="drop-shadow-3xl cursor-pointer hover:underline duration-200 lg:text-5xl md:text-4xl">
+          <span className="drop-shadow-3xl cursor-pointer hover:underline duration-200 lg:text-5xl sm:text-4xl">
           Coding Profiles
           </span>
         </div>
 
-        <div className="m-16 mt-24 flex md:flex-wrap lg:flex-nowrap justify-around">
+        <div className="md:m-16 sm:m-2 sm:mt-8 mt-24 flex sm:flex-wrap lg:flex-nowrap justify-around">
                 {/* Leetcode */}
-          <div className="lg:w-1/3 md:w-90 h-72 border rounded-lg flex justify-around overflow-hidden relative z-10 group mx-4 md:my-4">
+          <div className="lg:w-1/3 sm:w-90 h-72 border rounded-lg flex justify-around overflow-hidden relative z-10 group mx-4 sm:my-4">
             <div className="imgSec w-full h-full p-2 overflow-hidden">
               <img
                 alt="leetcode"
@@ -889,7 +889,7 @@ const Home = () => {
 
 
               {/* Codeforces */}
-          <div className="lg:w-1/3 md:w-90 h-72 border rounded-lg flex justify-around overflow-hidden relative z-10 group mx-4 md:my-4">
+          <div className="lg:w-1/3 sm:w-90 h-72 border rounded-lg flex justify-around overflow-hidden relative z-10 group mx-4 sm:my-4">
             <div className="imgSec w-full h-full p-2 overflow-hidden">
               <img
                 alt="leetcode"
@@ -913,7 +913,7 @@ const Home = () => {
           </div>
 
               {/* codechef */}
-          <div className=" md:w-90 lg:w-1/3 h-72 border rounded-lg flex justify-around overflow-hidden relative z-10 group lg:mx-4 md:mx-8 md:my-4">
+          <div className=" sm:w-90 lg:w-1/3 h-72 border rounded-lg flex justify-around overflow-hidden relative z-10 group lg:mx-4 md:mx-8 sm:mx-4 sm:my-4">
             <div className="imgSec w-full h-full p-2 overflow-hidden">
               <img
                 alt="leetcode"
@@ -940,16 +940,16 @@ const Home = () => {
 
 
               {/* Contact Sec */}
-      <div className="contact m-32 lg:mx-32 md:mx-10  mb-14 md:block sm:hidden">
+      <div className="contact md:m-32 sm:m-2 lg:mx-32 md:mx-10 sm:mx-0  md:mb-14 sm:mb-20 md:block">
         <div className=" relative  flex justify-center items-center flex-col">
           <div className="bubble md:block sm:hidden"></div>
-          <span className="drop-shadow-3xl cursor-pointer text-center hover:underline duration-200 lg:text-5xl md:text-4xl">
+          <span className="drop-shadow-3xl cursor-pointer text-center hover:underline duration-200 lg:text-5xl sm:text-4xl">
             Contact Me
           </span>
               {/* <div className="bubble2"></div> */}
-          <div className="w-[80%] h-52 border mt-16 bg-gray-700 shadow-xl shadow-black rounded-md ring-2 relative z-50 flex flex-col items-center lg:p-8 md:p-0 justify-evenly">
-              <div className="flex items-center justify-between w-[60%]"><img className="h-11 w-11 shadow-md" src={phone}/> <p className="text-2xl drop-shadow-3xl cursor-pointer hover:scale-125 duration-200">91+ 9258340781</p></div>
-              <div className="flex items-center justify-between w-[60%]"><img className="h-11 w-11 shadow-md" src={mail}/> <p className="text-2xl drop-shadow-3xl cursor-pointer hover:scale-125 duration-200" onClick={handleMail}>pankajlamgria@gmail.com</p></div>
+          <div className="md:w-[80%] sm:w-[96%] h-52 border md:mt-16 sm:mt-4 bg-gray-700 shadow-xl shadow-black rounded-md ring-2 relative z-50 flex flex-col items-center lg:p-8 sm:p-0 justify-evenly">
+              <div className="flex items-center justify-between md:w-[60%] sm:w-[90%]"><img className="h-11 w-11 shadow-md" src={phone} alt="phone"/> <p className="md:text-2xl sm:text-xl drop-shadow-3xl cursor-pointer hover:scale-125 duration-200">91+ 9258340781</p></div>
+              <div className="flex items-center justify-between md:w-[60%] sm:w-[90%]"><img className="h-11 w-11 shadow-md" src={mail} alt="mail"/> <p className="md:text-2xl sm:text-xl drop-shadow-3xl cursor-pointer hover:scale-125 duration-200" onClick={handleMail}>pankajlamgria@gmail.com</p></div>
           </div>
         </div>
       
@@ -957,7 +957,7 @@ const Home = () => {
       </div>
         
         {/* copyright */}
-        <div className="mt-0 bottom-0 h-16 bg-gray-950 flex justify-center items-center"><p className="text-md">Copyright <span>&copy;</span> 2024 | Developed & Designed by Pankaj Singh</p></div>
+        <div className="mt-0 bottom-0 h-16 bg-gray-950 flex justify-center items-center"><p className="md:text-md sm:text-sm ">Copyright <span>&copy;</span> 2024 | Developed & Designed by Pankaj</p></div>
     </div>
   );
 };
