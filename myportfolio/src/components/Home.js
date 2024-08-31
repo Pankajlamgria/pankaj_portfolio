@@ -1,4 +1,4 @@
-import {React,useRef} from "react";
+import {React} from "react";
 import {useInView} from  'react-intersection-observer';
 import { GoDotFill } from "react-icons/go";
 import "../home.css";
@@ -44,8 +44,8 @@ import codeforces from "../media/codeforces.png";
 import codechef from "../media/codechef.png";
 import phone from "../media/phone.png";
 
-
 const Home = () => {
+  
   const { ref, inView } = useInView({
     triggerOnce: true,
     threshold: 0.5,
@@ -519,6 +519,7 @@ const Home = () => {
               <img
                 alt="music1"
                 className="h-full w-full rounded-lg cursor-pointer group-hover:opacity-50 transition-opacity duration-100"
+                
                 src={music1}
               />
               <div className="absolute h-64 hidden lg:w-80 md:w-96   top-0  justify-center items-center opacity-0 group-hover:flex group-hover:opacity-100 duration-200">
