@@ -92,8 +92,8 @@ const Home = () => {
       <div className="lg:px-36 md:px-20 mt-20  ml-8 mr-2 rounded-1xl flex md:flex-row sm:flex-col-reverse justify-between lg:h-imgHeight md:h-96">
         {/* text Sec */}
         <div className="mt-10 h-full rounded pt-14 md:w-3/5 sm:w-full flex-col items-center ">
-          <h1 className="lg:text-4xl md:text-3xl font-medium mb-1">Hi!</h1>
-          <h1 className="lg:text-5xl md:text-3xl font-medium mb-8">
+          <h1 className="lg:text-4xl md:text-3xl sm:text-3xl font-medium mb-1">Hi!</h1>
+          <h1 className="lg:text-5xl md:text-3xl sm:text-2xl font-medium mb-8">
             I'm{" "}
             <span className="lg:text-5xl md:text-3xl font-semibold  text-white">
               Pankaj Singh Lamgria
@@ -183,8 +183,8 @@ const Home = () => {
 
       {/* About Section */} 
       <div className="h-auto mt-36 lg:mx-32 md:mx-10 sm:mx-0 flex  md:mb-32 sm:mb-0" id="AboutSec">
-        <div className="TextArea md:w-2/3 sm:w-[100%] lg:p-5 lg:pr-10 sm:p-3  mb-40">
-          <span className="lg:text-5xl sm:text-4xl drop-shadow-3xl cursor-pointer hover:underline duration-200">
+        <div className="TextArea md:w-2/3 sm:w-[100%] lg:p-5 lg:pr-10 sm:p-3  md:mb-40 sm:mb-20">
+          <span className="lg:text-5xl sm:text-4xl sm:ml-2 md:ml-0 drop-shadow-3xl cursor-pointer hover:underline duration-200">
             My Journey
           </span>
           <h2 className="lg:text-lg md:text-md md:mt-24 sm:mt-12 text-left text-gray-300">
@@ -293,9 +293,9 @@ const Home = () => {
 
       {/* Skills */}
 
-      <div className="lg:mx-32 md:mx-10 sm:mx-0 md:mb-32 sm:mb-4 relative">
+      <div className="lg:mx-32 md:mx-10 sm:mx-0 md:mb-32 sm:mb-8 relative">
         <div className="bubble2 md:block sm:hidden"></div>
-        <span className="lg:text-5xl sm:text-4xl  mb-16 drop-shadow-3xl cursor-pointer hover:underline duration-200 sm:px-5">
+        <span className="lg:text-5xl sm:text-4xl  sm:ml-6 md:ml-0 mb-16 drop-shadow-3xl cursor-pointer hover:underline duration-200 sm:px-5">
           Frameworks
         </span>
 
@@ -387,11 +387,11 @@ const Home = () => {
       {/* Services */}
 
       <div className="lg:mx-32 md:mx-10 md:mb-32 sm:mb-8 relative">
-        <span className="lg:text-5xl sm:text-4xl sm:px-4 md:px-0  drop-shadow-3xl cursor-pointer hover:underline duration-200">
+        <span className="lg:text-5xl sm:text-4xl sm:px-4 md:px-0  sm:ml-6 md:ml-0 drop-shadow-3xl cursor-pointer hover:underline duration-200">
           Services
         </span>
-        <div className="flex flex-wrap justify-around items-center mt-14">
-          <div className="group h-80 md:mt-8 sm:mt-4">
+        <div className="flex flex-wrap justify-around items-center md:mt-14 sm:mt-8">
+          <div className="group h-80 md:mt-8 sm:mt-1">
             <div className="cotainer1 shadow-hover_shadow z-1 cursor-pointer rounded-lg border shadow-xl-100 lg:h-80 sm:h-72 lg:w-96 sm:w-72 flex items-center pb-8 justify-center bg-gradient-to-tr from-blue-400 via-purple-500 to-gray-200 hover:opacity-50 transition-opacity duration-200 ">
               <h2 className="absolute lg:text-4xl sm:text-3xl text-shadowText font-bold text-center hover:animate-jumpdown">
                 Web Development
