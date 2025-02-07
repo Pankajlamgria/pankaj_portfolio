@@ -46,7 +46,7 @@ import phone from "../media/phone.png";
 
 const Home = () => {
   
-  const { ref, inView } = useInView({
+  const { refer, inView } = useInView({
     triggerOnce: true,
     threshold: 0.5,
   });
@@ -226,7 +226,7 @@ const Home = () => {
           <div className="VerticalLine">
             <div className="w-2 h-full bg-white absolute lg:left-8 md:left-2"></div>
             <div className="group">
-              <div ref={ref} className={`absolute flex border rounded-md lg:p-4 md:p-2 justify-around lg:left-28 md:left-10 top-16 opacity-0 scale-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:scale-100 ${inView ? 'animate-slide_in' : 'opacity-0'}`}>
+              <div ref={refer} className={`absolute flex border rounded-md lg:p-4 md:p-2 justify-around lg:left-28 md:left-10 top-16 opacity-0 scale-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:scale-100 ${inView ? 'animate-slide_in' : 'opacity-0'}`}>
 
                 {/* Born status */}
 
@@ -246,7 +246,7 @@ const Home = () => {
             </div>
 
             <div className="group">
-              <div  className={`absolute lg:w-96 md:90 flex border rounded-md lg:p-4 md:p-2 justify-around lg:left-28 md:left-10 lg:top-48 md:top-1/3 opacity-0 scale-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:scale-100 ${inView ? 'animate-slide_in' : 'opacity-0'}`}>
+              <div ref={refer} className={`absolute lg:w-96 md:90 flex border rounded-md lg:p-4 md:p-2 justify-around lg:left-28 md:left-10 lg:top-48 md:top-1/3 opacity-0 scale-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:scale-100 ${inView ? 'animate-slide_in' : 'opacity-0'}`}>
                 {/* Born status */}
                 <div className="imgSec w-1/3  md:flex md:justify-center md:items-center rounded-md overflow-hidden">
                   <img
@@ -949,7 +949,7 @@ const Home = () => {
           </span>
               {/* <div className="bubble2"></div> */}
           <div className="md:w-[80%] sm:w-[96%] h-52 border md:mt-16 sm:mt-4 bg-gray-700 shadow-xl shadow-black rounded-md ring-2 relative z-50 flex flex-col items-center lg:p-8 sm:p-0 justify-evenly">
-              <div className="flex items-center justify-between md:w-[60%] sm:w-[90%]"><img className="h-11 w-11 shadow-md" src={phone} alt="phone"/> <p className="md:text-2xl sm:text-xl drop-shadow-3xl cursor-pointer hover:scale-125 duration-200">91+ 9258340781</p></div>
+              <div className="flex items-center justify-between md:w-[60%] sm:w-[90%]"><img className="h-11 w-11 shadow-md" src={phone} alt="phone"/> <p className="md:text-2xl sm:text-xl drop-shadow-3xl cursor-pointer hover:scale-125 duration-200">+91 9258340781</p></div>
               <div className="flex items-center justify-between md:w-[60%] sm:w-[90%]"><img className="h-11 w-11 shadow-md" src={mail} alt="mail"/> <p className="md:text-2xl sm:text-xl drop-shadow-3xl cursor-pointer hover:scale-125 duration-200" onClick={handleMail}>pankajlamgria@gmail.com</p></div>
           </div>
         </div>
