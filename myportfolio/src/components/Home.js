@@ -84,7 +84,7 @@ const Home = () => {
               <div className="text-green-500 mx-1 ">
                 <GoDotFill />
               </div>
-              <div className="animate-movetop relative w-96 text-md h-6 leading-10"><h2> Avialable for Work  Avialable for Work Avialable for Work Avialable for Work</h2></div> 
+              <div className="animate-movetop relative w-96 text-md h-6 leading-10"><h2> Available for Work  Available for Work Available for Work Available for Work</h2></div> 
             </div>
           </ul>
         </div>
@@ -882,8 +882,8 @@ const Home = () => {
                 Leetcode
               </p>
               <p className="text-lg text-center mt-8">
-                ⚔️ Knight on LeetCode with a maximum rating exceeding 2000,
-                having solved over 900 problems. 💡
+                ⚔️ Knight on LeetCode with a maximum rating exceeding 2100,
+                having solved over 1100 problems. 💡
               </p>
             </div>
           </div>
@@ -908,7 +908,7 @@ const Home = () => {
                 Codeforces
               </p>
               <p className="text-lg text-center mt-8">
-              🧠 Pupil on Codeforces with a maximum rating of 1295. 🌟
+              🧠 Specialist on Codeforces with a maximum rating of 1478. 🌟
               </p>
             </div>
           </div>
@@ -932,7 +932,7 @@ const Home = () => {
                 Codechef
               </p>
               <p className="text-lg text-center mt-8">
-              🌟 3-star coder on CodeChef with a maximum rating of 1653. 🍴
+              🌟 4-star coder on CodeChef with a maximum rating of 1828. 🍴
               </p>
             </div>
           </div>
