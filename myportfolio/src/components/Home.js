@@ -226,7 +226,7 @@ const Home = () => {
           <div className="VerticalLine">
             <div className="w-2 h-full bg-white absolute lg:left-8 md:left-2"></div>
             <div className="group">
-              <div className={`absolute flex border rounded-md lg:p-4 md:p-2 justify-around lg:left-28 md:left-10 top-16 opacity-0 scale-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:scale-100 ${inView ? 'animate-slide_in' : 'opacity-0'}`}>
+              <div ref={ref} className={`absolute flex border rounded-md lg:p-4 md:p-2 justify-around lg:left-28 md:left-10 top-16 opacity-0 scale-0 group-hover:opacity-100 transition-opacity duration-500 group-hover:scale-100 ${inView ? 'animate-slide_in' : 'opacity-0'}`}>
 
                 {/* Born status */}
 
